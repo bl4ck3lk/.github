@@ -15,5 +15,10 @@ include these answers yourself: supplying a body can bypass template insertion.
 Follow the destination repository's own contribution and validation instructions.
 Only report checks that actually ran.
 
+Keep the five points terse, then add "Lesson for future work": explain the broader
+pattern, the incomplete assumption, the missed check, and reusable questions or
+actions. Before implementing, write "The user can [task/capability] under
+[conditions]" and verify the whole task. Report what remains untested.
+
 This is the account-wide fallback. A repository with its own template or
 contribution guide uses its local file, which should retain the same exercise.

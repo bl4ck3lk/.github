@@ -7,6 +7,9 @@ verification, and how to catch or prevent similar problems. Keep answers brief,
 concrete, and in plain language. For changes that fix no existing bug, describe
 the relevant risk or assumption checked.
 
+A separate "Lesson for future work" section explains the broader pattern and
+reusable checks. It includes an acceptance sentence tied to the user's task.
+
 GitHub uses these defaults for public and private repositories without their own
 corresponding files. Repository-specific templates take precedence and should
 include the same exercise. The defaults take effect from this repository's
