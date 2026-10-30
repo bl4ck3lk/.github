@@ -1,24 +1,16 @@
 # Pull requests
 
-Use the pull request template and complete its "Issue, change, and prevention"
-section for every PR, including features, refactors, documentation, and maintenance.
-Keep the explanation in plain language and scale its detail to the change.
+Keep the whole description under 150 words by default.
 
-Use five short points: issue or need; change; verification; cause or risk;
-and how to catch or prevent it. Include the expected result and conditions,
-checks and limits, broader issue class and assumption, and a concrete check
-with one or two prevention questions or actions. Do not invent a past bug
-for new work. Use "N/A: reason" when appropriate.
+One sentence saying what problem this solves and what the user can do now.
 
-When opening a PR through a CLI, API, or coding agent with an explicit body,
-include these answers yourself: supplying a body can bypass template insertion.
-Follow the destination repository's own contribution and validation instructions.
-Only report checks that actually ran.
+- **Change:** Main change, in one sentence.
+- **Checks:** Checks actually run, results, and any important gap.
+- **Risk:** Only a concrete risk or action the reviewer needs. Omit if none.
 
-Keep the five points terse, then add "Lesson for future work": explain the broader
-pattern, the incomplete assumption, the missed check, and reusable questions or
-actions. Before implementing, write "The user can [task/capability] under
-[conditions]" and verify the whole task. Report what remains untested.
+Link the related issue when relevant. Link long logs or screenshots.
+Keep planning and broader lessons in working notes or project docs.
 
-This is the account-wide fallback. A repository with its own template or
-contribution guide uses its local file, which should retain the same exercise.
+Use this format for browser, CLI, API, and coding-agent PRs. Follow the
+destination repository's contribution and validation instructions. Repository
+templates override this fallback and should keep the same brief format.
